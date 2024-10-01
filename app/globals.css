@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: aqua;
+  color: black;
+  align-items: center;
+  font-weight: bold;
+}
+.headerButtons {
+  list-style-type: none;  /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: space-around; /* Space out evenly */
+}
+.headerButtons li {
+  margin: 0 10px; /* Add some space between items */
+}
+.headerButtons li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.headerButtons li a:hover {
+  color: #0070f3; /* Change color on hover */
+}
+.h1:hover{
+  color: red;
+}
+body{
+  background-color: aquamarine;
+}
+.introSection {
+  text-align: center;
+  padding: 20px;
+}
+
+.introSection h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.introSection p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.imageContainer {
+  display: flex;            /* Use flexbox to center */
+  justify-content: center;  /* Center horizontally */
+  margin-bottom: 20px;     /* Space below the image */
+}
+.about h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contact h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.jobs h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
